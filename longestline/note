@@ -1,0 +1,6 @@
+Sat Sep 3 10:06:19 IST 2016
+i was doing my version of longestline and taken into consideration that let
+the maximum lenght of line is 100 characters.
+
+I was just thinking what will be the downside if I take just character pointer 
+to take the whole line until i get a '\n'

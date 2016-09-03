@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <assert.h>
+
+/* function declartion */
+double celsiustofahr(double celsius);
+
+/* program to convert celsius to fahreinheit */
+int main() {
+  double celsius;
+
+  assert(celsiustofahr(0)==32);
+  assert(celsiustofahr(100)==212);

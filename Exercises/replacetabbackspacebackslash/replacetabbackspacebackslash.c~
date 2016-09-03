@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+/** program to replace tabs with \t backspace with \b and backslash \ with \\ **/
+
+int main() {
+  int c;
+
+  while ( ( c = getchar() ) != EOF ) {
+    if ( c == '\t' ) 
+      putchar('\\t');
+  }
+  return 0;
+}

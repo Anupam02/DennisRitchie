@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+typedef enum { false, true } bool;
+
+/** program to replace multi blanks to single blank **/
+int main() {

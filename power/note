@@ -1,0 +1,8 @@
+Functions definitions can appear in any order, and in one source file or several,
+although no function can be split between files.If some source program appears in 
+several files, you may have to say more to compile and load it than if it all 
+appears in one, but that is an operating system matter, not a language attribute.
+
+int main() , here return type of main() is int , where 0 means successful.
+Since main is a function like any other, it may return a value to its caller, which 
+is in effect the environmetnt in which the program was executed.

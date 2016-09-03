@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+/** program to print the longest line taken into consideration
+    that longest line is of 100 characters.
+    my version Sat Sep 3 09:20:55 IST 2016
+*/
+

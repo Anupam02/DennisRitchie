@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+typedef enum { false, true } bool;
+
+/** program to print one word per line as per given input **/
+
+int main () {
+  int c;
+  bool wordstarted;
+
+  wordstarted = false;
+  while ( ( c = getchar() ) != EOF ) {
+    if ( c == ' ' || c == '\n' || c == '\t') {
+      wordstarted = false;
+    } else {
+      if ( !wordstarted) {
+	putchar('\n');
+      }
+      putchar(c);
+    }
+  }
+  return 0;
+}

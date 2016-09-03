@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+/** program to determine no of digits , white characters, and other 
+    characters **/
+
+int main() {
+  int c, i, nwhite, nother;
+  int ndigits[10] = {0};
+  return 0;
+}

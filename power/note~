@@ -1,0 +1,4 @@
+Functions definitions can appear in any order, and in one source file or several,
+although no function can be split between files.If some source program appears in 
+several files, you may have to say more to compile and load it than if it all 
+appears in one, but that is an operating system matter, not a language attribute.
